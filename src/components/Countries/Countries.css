@@ -1,0 +1,22 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:4px;
+}
+.text{
+    text-align: center;
+}
+.img img{
+    width: 80px;
+    margin-right: 4px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .country-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
